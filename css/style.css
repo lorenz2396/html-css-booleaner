@@ -5,7 +5,7 @@ body{
     margin: 0;
   }
   img{
-    background-image: url("../img/pattern.png");
+    background-image: url("img/pattern.png");
     background-color: lightblue;
     background-repeat: repeat-x;
     background-size: contain;
