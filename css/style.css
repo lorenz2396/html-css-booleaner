@@ -5,16 +5,46 @@ body{
     margin: 0;
   }
   img{
-    background-image: url("img/pattern.png");
+    background-image: url("../img/pattern.png");
     background-color: lightblue;
     background-repeat: repeat-x;
     background-size: contain;
   }
-  .testo-piccolo{
+  #testo-medio{
     font-size: small;
+  }
+  #testo-piccolo{
+    font-size: x-small;
   }
   
   ul{
     margin: 0;
   }
   
+  .blue-row{
+    background-color: blue;
+    color: white
+  
+  }
+  
+  .lightblue-row{
+    background-color: lightblue;
+  
+  }
+  
+  h3{
+    color: grey;
+  }
+  #monitor{
+    color: white;
+    width: 250px;
+    height: 250px;
+    background-image: url("../img/monitor.jpg");
+  }
+  #graph{
+    color: white;
+    width: 250px;
+    height: 250px;
+    background-image: url("../img/graph.jpg");
+  margin-top: 2px;
+  }
