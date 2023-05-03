@@ -9,24 +9,32 @@
 </head>
 <body>
     <header>
-        <img src="img/logo.svg" alt="Logo_Boolean" width="100%" height="45px">
+        <img id="main-logo" src="img/logo.svg" alt="Logo_Boolean">
     </header>
   
     <main>
         <section>
           <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
           <div class="testo-medio" style="color:grey">
-            Scritto da <span style="color:blue">The Booleaner</span> <br>
-            il 10/10/2020
+            <h5>
+            Scritto da <a href="#">The Booleaner</a>
+            <div>
+                <small>il 10/10/2020</small>
+            </div>
+            </h5>
           </div>
         </section>
   
         <section>
-          <img src="img/tim-1.jpg" alt="">
-          <img src="img/tim-2.jpg" alt="">
-          <div class="testo-piccolo">
-            1st Photo: Jhon S. and L.Knight Foundation, by Scott Henderson <br>
-            2nd Photo: Wikipedia, by Paul Clarke
+            <div>
+                <img src="img/tim-1.jpg" alt="">
+                <img src="img/tim-2.jpg" alt="">
+            </div>
+          <div>
+            <small>
+                1st Photo: Jhon S. and L.Knight Foundation, by Scott Henderson <br>
+                2nd Photo: Wikipedia, by Paul Clarke
+            </small>
           </div>
         </section>
   
@@ -44,26 +52,29 @@
 
         <section>
             <table>
-                  <tr class="blue-row">
-                    <th colspan="2">Lorem ipsum dolor</th>
-                    <th colspan="2">Lorem ipsum dolor</th>
-                    <th colspan="2" >Lorem ipsum dolor</th>
-                  </tr>
+                <thead>
+                    <tr class="blue-row">
+                        <th colspan="2">Lorem ipsum dolor</th>
+                        <th colspan="2">Lorem ipsum dolor</th>
+                        <th class="last-cell">Lorem ipsum dolor</th>
+                    </tr>
+                </thead>
+                 
                   <tbody>
                     <tr class="lightblue-row">
                       <td colspan="2" >Lorem ipsum dolor</td>
                       <td colspan="2" >Lorem ipsum dolor</td>
-                      <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, error nesciunt. In voluptas tempore ullam, reprehenderit dignissimos dolorum quis libero tempora, eaque incidunt dolor quidem explicabo pariatur omnis, atque suscipit.</td>
+                      <td class="last-cell">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, error nesciunt. In voluptas tempore ullam, reprehenderit dignissimos dolorum quis libero tempora, eaque incidunt dolor quidem explicabo pariatur omnis, atque suscipit.</td>
                     </tr>
                     <tr>
                       <td colspan="2" >Lorem ipsum dolor</td>
                       <td colspan="2" >Lorem ipsum dolor</td>
-                      <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora saepe, quae dolores quod iusto dolore expedita pariatur praesentium culpa facere itaque eos consequuntur dolor labore neque placeat? Aspernatur, saepe explicabo?</td>
+                      <td class="last-cell">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora saepe, quae dolores quod iusto dolore expedita pariatur praesentium culpa facere itaque eos consequuntur dolor labore neque placeat? Aspernatur, saepe explicabo?</td>
                     </tr>
                     <tr class="lightblue-row">
                       <td colspan="2">Lorem ipsum dolor</td>
                       <td colspan="2">Lorem ipsum dolor</td>
-                      <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quam consectetur nulla id accusamus quos repellat. Vitae adipisci quis consectetur vel molestiae pariatur perspiciatis labore officia, delectus tempora saepe veniam.</td>
+                      <td class="last-cell">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quam consectetur nulla id accusamus quos repellat. Vitae adipisci quis consectetur vel molestiae pariatur perspiciatis labore officia, delectus tempora saepe veniam.</td>
                     </tr>
                   </tbody>
               </table>
@@ -75,12 +86,12 @@
        </main>
     
        <footer>
-         <h3>Potrebbero interessarti</h3>
+         <h4 style="color: grey;">Potrebbero interessarti</h4>
          <div id="monitor">
-           <span>Lorem ipsum dolor</span>
+           <span class="related-article">Lorem ipsum dolor</span>
          </div>
          <div id="graph">
-            <span>Lorem ipsum dolor</span>
+            <span class="related-article">Lorem ipsum dolor</span>
          </div>
        </footer>
     </body>
